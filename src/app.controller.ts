@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    const api_key='jeJAasdjhdb45afVHVsf'
+    const api_key='jeJAasdjhdb45afVHVsf';
     return this.appService.getHello();
   }
 }
